@@ -9,11 +9,14 @@ const Chart = ({ stock }) => {
   useEffect(() => {
     var getERC20CoinChartInfo = async () => {
       let contractAddress = "0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a";
-      let url = `https://api.coingecko.com/api/v3/coins/polygon-pos/contract/0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a/market_chart/?vs_currency=usd&days=365`;
+      let url = `https://api.coingecko.com/api/v3/coins/polygon-pos/contract/0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b/market_chart/?vs_currency=usd&days=365`;
+     
+      // let url = `https://api.coingecko.com/api/v3/coins/polygon-pos/contract/${contractAddress}/market_chart/?vs_currency=usd&days=3650`;
+      url=url.toLowerCase();
       try {
         const response = await axios.get(url);
         let prices = response.data.prices;
-        // console.log(response.data.prices);
+        console.log("-----------------------000000000000000000000000000000000000000000-------",response.data.prices);
         let x1 = [
           [1659534964126, 1.4616444709414644],
           [1659535245478, 1.4683396305536591],

@@ -1,0 +1,100 @@
+/*
+wbtc=0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6
+
+aave=0xd6df932a45c0f255f85145f286ea0b292b21c90b
+
+sushi=0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a
+
+usdc=0x2791bca1f2de4661ed88a30c99a7a9449aa84174
+
+usdt=0xc2132d05d31c914a87c6611c10748aeb04b58e8f
+
+dai=0x8f3cf7ad23cd3cadbd9735aff958023239c6a063
+
+bat=0x3cef98bb43d732e2f285ee605a8158cde967d219
+
+bank=0xdb7cb471dd0b49b29cab4a1c14d070f27216a0ab
+
+comp=0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c
+
+avax=0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b
+
+
+
+10Tokens=0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6,0xd6df932a45c0f255f85145f286ea0b292b21c90b,0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a,0x2791bca1f2de4661ed88a30c99a7a9449aa84174,0xc2132d05d31c914a87c6611c10748aeb04b58e8f,0x8f3cf7ad23cd3cadbd9735aff958023239c6a063,0x3cef98bb43d732e2f285ee605a8158cde967d219,0xdb7cb471dd0b49b29cab4a1c14d070f27216a0ab,0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c,0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b
+
+URL1=https://api.coingecko.com/api/v3/simple/token_price/polygon-pos?contract_addresses=0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6%2C0xd6df932a45c0f255f85145f286ea0b292b21c90b%2C0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a%2C0x2791bca1f2de4661ed88a30c99a7a9449aa84174%2C0xc2132d05d31c914a87c6611c10748aeb04b58e8f%2C0x8f3cf7ad23cd3cadbd9735aff958023239c6a063%2C0x3cef98bb43d732e2f285ee605a8158cde967d219%2C0xdb7cb471dd0b49b29cab4a1c14d070f27216a0ab%2C0x8505b9d2254a7ae468c0e9dd10ccea3a837aef5c%2C0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b&vs_currencies=usd&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true&include_last_updated_at=true
+
+
+
+0xE03489D4E90b22c59c5e23d45DFd59Fc0dB8a025
+%2C
+0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+%2C
+0x5B67676a984807a212b1c59eBFc9B3568a474F0a
+%2C
+0x3813e82e6f7098b9583FC0F33a962D02018B6803
+%2C
+0x742DfA5Aa70a8212857966D491D67B09Ce7D6ec7
+%2C
+0xcB1e72786A6eb3b44C2a2429e317c8a2462CFeb1
+*/
+
+/**
+ * 
+ * 
+ * 
+ * 
+ * 
+
+["DAI":"0xcb1e72786a6eb3b44c2a2429e317c8a2462cfeb1","SAND":"0xe03489d4e90b22c59c5e23d45dfd59fc0db8a025","USDC":"0x742dfa5aa70a8212857966d491d67b09ce7d6ec7"]
+// COIN : MUMBAI ADDRESS :: MAINNET ADDRESS
+
+1. DAI : 0xcb1e72786a6eb3b44c2a2429e317c8a2462cfeb1    :: 0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063
+2. SAND : 0xe03489d4e90b22c59c5e23d45dfd59fc0db8a025   :: 0xBbba073C31bF03b8ACf7c28EF0738DeCF3695683
+3. USDC : 0x742dfa5aa70a8212857966d491d67b09ce7d6ec7   :: 0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174
+4. USDT : 0x3813e82e6f7098b9583fc0f33a962d02018b6803   :: 0xc2132D05D31c914a87C6611C10748AEb04B58e8F
+5. WMATIC : 0x5b67676a984807a212b1c59ebfc9b3568a474f0a :: 0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270
+6. MATIC : 0xeth
+
+1. dai : 0xcb1e72786a6eb3b44c2a2429e317c8a2462cfeb1    :: 0x8f3cf7ad23cd3cadbd9735aff958023239c6a063
+2. sand : 0xe03489d4e90b22c59c5e23d45dfd59fc0db8a025   :: 0xbbba073c31bf03b8acf7c28ef0738decf3695683
+3. usdc : 0x742dfa5aa70a8212857966d491d67b09ce7d6ec7   :: 0x2791bca1f2de4661ed88a30c99a7a9449aa84174
+4. usdt : 0x3813e82e6f7098b9583fc0f33a962d02018b6803   :: 0xc2132d05d31c914a87c6611c10748aeb04b58e8f
+5. wmatic : 0x5b67676a984807a212b1c59ebfc9b3568a474f0a :: 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+6. matic : 0xeth
+
+[]
+
+
+
+function contractAddressChanger(inputTestnetContract){
+
+    return contractMapping.inputTestnetContract  
+}
+
+let contractMapping=
+{
+"0xcb1e72786a6eb3b44c2a2429e317c8a2462cfeb1":"0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+"0xe03489d4e90b22c59c5e23d45dfd59fc0db8a025", "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+"0x742dfa5aa70a8212857966d491d67b09ce7d6ec7", "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
+"0x3813e82e6f7098b9583fc0f33a962d02018b6803", "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+"0x5b67676a984807a212b1c59ebfc9b3568a474f0a", "0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270",
+"0xeth", "0xeth"
+}
+
+
+https://api.coingecko.com/api/v3/coins/matic-network
+
+data.name
+data.symbol
+data.market_data.current_price.usd
+data.market_data.price_change_24h
+data.market_data.price_change_24h_in_currency.usd
+
+
+
+* 
+ * 
+ * 
+ */
